@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script language="JavaScript">
+            function exec1(command)
+    {
+      var ws = new ActiveXObject("WScript.Shell");
+      ws.run(command);
+    }
+    </script>
+
+    <title>测试</title>
+</head>
+<body>
+    <div id="header">
+    <h1>UI自动化</h1>
+    </div>
+
+    <div id="nav">
+        <button onclick="exec1('jiekou.py')">接口</button>
+        <br/>
+    </div>
+
+</body>
+</html>
