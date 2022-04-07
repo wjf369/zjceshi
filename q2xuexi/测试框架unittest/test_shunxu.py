@@ -34,7 +34,7 @@ class TestClass1(unittest.TestCase):
 class TestClass2(unittest.TestCase):  # 该模块另一个测试类
     def test_A(self):
         print("A")
-
+1414141
 
 if __name__ == '__main__':
     unittest.main()
